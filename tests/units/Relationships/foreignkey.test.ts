@@ -19,7 +19,7 @@ class Business extends Model {
   static table = "foreignkeybusinesses";
   static timestamps = false;
 
-  static fields = {
+  static override fields = {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,

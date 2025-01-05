@@ -10,7 +10,7 @@ jobs:
   mysql:
     strategy:
       matrix:
-        deno: ['v1.x']
+        deno: ["v1.x"]
     runs-on: [ubuntu-latest]
     services:
       mysql:
