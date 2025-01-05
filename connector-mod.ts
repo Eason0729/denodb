@@ -1,9 +1,9 @@
 export {
-  Connector,
-  ConnectorClient,
-  ConnectorOptions,
+  type Connector,
+  type ConnectorClient,
+  type ConnectorOptions,
 } from "./lib/connectors/connector.ts";
 export type { QueryDescription } from "./lib/query-builder.ts";
 export { SQLTranslator } from "./lib/translators/sql-translator.ts";
 export { BasicTranslator } from "./lib/translators/basic-translator.ts";
-export { Translator } from "./lib/translators/translator.ts";
+export { type Translator } from "./lib/translators/translator.ts";
